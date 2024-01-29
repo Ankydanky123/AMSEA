@@ -20,7 +20,7 @@ function Contact() {
             message: message.current.value
         }
 
-        axios.post('http://localhost:8000/send-message', data)
+        axios.post('https://amseabackend.onrender.com/send-message', data)
             .then(response => {
                 console.log("Message sent successfully")
                 name.current.value = ''
