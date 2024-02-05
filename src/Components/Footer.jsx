@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer_">
       <div className="subfooter">
         <div className="quicklink">
           <h4>Quick Links</h4>

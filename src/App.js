@@ -16,6 +16,7 @@ function App() {
       <BrowserRouter>
       <Navbar />
         <Routes>
+          
        
           <Route path='/' element={
            <>
@@ -34,6 +35,7 @@ function App() {
           
         </Routes>
         <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
 
