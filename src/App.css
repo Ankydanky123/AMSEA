@@ -151,8 +151,16 @@
 }
 .courses{
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content: space-around;
+}
+.coursestop{
+  display:flex;
+  flex-direction:row;
+}
+.coursesbottom{
+  display:flex;
+  flex-direction:row;
 }
 .courses .card{
   width: 361px;
@@ -247,7 +255,22 @@
     justify-content: center;
   }
   .courses{
+    display:flex;
     flex-wrap:wrap;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+  }
+  .coursestop{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+  }
+  .coursesbottom{
+    display:flex;
+    flex-direction:column;
+    width:100%
   }
   .courses .card{
     width:80%;
@@ -270,4 +293,11 @@
   .footer_{
     height:auto;
   }
+ 
+}
+
+
+
+html{
+  scroll-behavior: smooth;
 }

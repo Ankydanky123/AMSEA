@@ -8,7 +8,7 @@ import Instructors from './Components/Instructors';
 import Footer from './Components/Footer';
 import Courses from './Components/Courses';
 import Contact from './Components/Contact';
-import Achievement from './Components/Achivement'
+import Achivement from './Components/Achivement'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
           } />
           
          <Route path='/achievements' element={
-          <Achievement />
+          <Achivement />
          } />
           
         </Routes>

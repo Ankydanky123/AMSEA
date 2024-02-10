@@ -16,14 +16,12 @@ function Footer() {
         <div className="hodacontact">
           <h4>Hoda Farahmandpour</h4>
           <ul>
-            <li>Phone: ________</li>
-            <li>Email: ________</li>
+            <li>Email: hoda28@gmail.com</li>
           </ul>
         </div>
         <div className="quicklink">
           <h4>Amir Kh</h4>
           <ul>
-            <li>Phone: +1 437-967-7676</li>
             <li>Email: amyrkhosro@gmail.com</li>
           </ul>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <img className="grpimg" src='images/youthgroup.jpg'/>
       <p className="abouttext">
         <h3>About Us</h3>
